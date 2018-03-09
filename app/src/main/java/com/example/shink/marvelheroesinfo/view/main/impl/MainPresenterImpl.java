@@ -69,7 +69,7 @@ public class MainPresenterImpl implements MainPresenter {
     }
 
     @Override
-    //show information about sll local characters
+    //show information about all local characters
     public void getLocalCharacters() {
         mainView.showProgressBar();
         List<Character> chars = mainInteractor.getLocalCharacters();
