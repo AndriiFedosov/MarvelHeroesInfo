@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Marvel Heroes Info</string>
+
+    <string name="public_api_key">f195e575f65741d1ee24f72d6fe39408</string>
+    <string name="private_api_key">98c12f4cec54a72b548d8ebe7bc4f6fb8e180f0d</string>
+
+    <string name="title_activity_detail">Detail Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_description"><i>Description is missing</i></string>
+    <string name="number_of_comics">%1$s number %2$d comicsDto!</string>
+    <string name="no_connection">Connection is not exist</string>
+    <plurals name="ComicsAvailable">
+        <item quantity="zero">Comics are missing</item>
+        <item quantity="one">Have %d comicsDto</item>
+        <item quantity="other">Have %d comicsDto</item>
+    </plurals>
+    <plurals name="SeriesAvailable">
+        <item quantity="zero">No seriesDto are available</item>
+        <item quantity="one">One  comicsDto %d seriesDto</item>
+        <item quantity="other">Other comicsDto %d seriesDto</item>
+    </plurals>
+    <plurals name="EventAvailable">
+        <item quantity="zero">No eventsDto are available</item>
+        <item quantity="one">One  comicsDto %d eventsDto</item>
+        <item quantity="other">Other comicsDto %d eventsDto</item>
+    </plurals>
+    <plurals name="HistoriesAvailable">
+        <item quantity="zero">No histories are available</item>
+        <item quantity="one">One  comicsDto %d  histories</item>
+        <item quantity="other">Other comicsDto %d  histories</item>
+    </plurals>
+</resources>
